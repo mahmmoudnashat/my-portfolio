@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://my-portfolio-six-ochre-71.vercel.app/sitemap.xml
