@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محمود عايش | أخصائي تسويق رقمي وأداء وSEO | Mahmoud Ayesh</title>
+  <meta name="description" content="محمود عايش - مهندس نمو تسويقي وخبير تحسين محركات البحث وإعلانات الأداء لمتاجر التجارة الإلكترونية | Mahmoud Ayesh - Performance Marketing & E-Commerce SEO Specialist.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <!-- Google Fonts: Cairo & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            cairo: ['Cairo', 'sans-serif'],
+            jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            dark: {
+              950: '#050811',
+              900: '#0B1120',
+              850: '#10192D',
+              800: '#162238',
+              700: '#233352'
+            },
+            emerald: {
+              400: '#34D399',
+              500: '#10B981',
+              600: '#059669'
+            },
+            cyan: {
+              400: '#22D3EE',
+              500: '#06B6D4'
+            },
+            amber: {
+              400: '#FBBF24',
+              500: '#F59E0B'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    :root {
+      --font-current: 'Cairo', sans-serif;
+    }
+    html[dir="ltr"] body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    html[dir="rtl"] body {
+      font-family: 'Cairo', sans-serif;
+    }
+    body {
+      background-color: #050811;
+    }
+    .font-num {
+      font-family: '"Plus Jakarta Sans"', sans-serif;
+    }
+    .glow-emerald {
+      box-shadow: 0 0 50px -10px rgba(16, 185, 129, 0.25);
+    }
+    .glow-cyan {
+      box-shadow: 0 0 50px -10px rgba(6, 182, 212, 0.25);
+    }
+    .gradient-border {
+      position: relative;
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .gradient-border:hover {
+      border-color: rgba(16, 185, 129, 0.4);
+    }
+    .gradient-text-emerald {
+      background: linear-gradient(135deg, #10B981 0%, #22D3EE 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .radial-bg {
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(16, 185, 129, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(6, 182, 212, 0.08) 0%, transparent 45%),
+        radial-gradient(circle at 50% 90%, rgba(99, 102, 241, 0.06) 0%, transparent 50%);
+    }
+  </style>
+</head>
+<body class="text-slate-200 antialiased selection:bg-emerald-500 selection:text-dark-950 radial-bg">
+
+  <!-- Top Announcement Strip -->
+  <div class="bg-gradient-to-r from-emerald-900/40 via-dark-900 to-cyan-900/40 border-b border-emerald-500/20 py-2.5 px-4 text-center text-xs md:text-sm font-semibold">
+    <span class="inline-flex items-center gap-2 flex-wrap justify-center">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      <span data-i18n="announcement_text" class="text-slate-300">متاح لاستقبال شراكات نمو جديدة للمتاجر والشركات للربع الحالي</span>
+      <a href="https://wa.me/970566517077" target="_blank" data-i18n="announcement_cta" class="text-emerald-400 hover:text-emerald-300 underline underline-offset-4 font-bold">احجز تدقيقاً مجانياً لمتجرك &rarr;</a>
+    </span>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="sticky top-0 z-50 backdrop-blur-2xl bg-dark-950/80 border-b border-slate-800/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3.5 group">
+        <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-emerald-500 to-cyan-500 flex items-center justify-center text-dark-950 font-black text-xl shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition">
+          M
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span data-i18n="brand_name" class="text-xl font-extrabold text-white tracking-tight">محمود عايش</span>
+            <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 font-bold font-num">BPharm / Growth</span>
+          </div>
+          <span data-i18n="brand_tagline" class="block text-xs text-slate-400 font-medium">Performance Marketing & E-Commerce SEO</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-300">
+        <a href="#philosophy" data-i18n="nav_philosophy" class="hover:text-emerald-400 transition">المنهجية التحليلية</a>
+        <a href="#results" data-i18n="nav_results" class="hover:text-emerald-400 transition">مؤشرات الأداء</a>
+        <a href="#cases" data-i18n="nav_cases" class="hover:text-emerald-400 transition">دراسات الحالة</a>
+        <a href="#services" data-i18n="nav_services" class="hover:text-emerald-400 transition">الخدمات الاستراتيجية</a>
+        <a href="#calculator" data-i18n="nav_calculator" class="hover:text-emerald-400 transition">حاسبة العائد</a>
+        <a href="#faq" data-i18n="nav_faq" class="hover:text-emerald-400 transition">الأسئلة الشائعة</a>
+      </nav>
+
+      <!-- Action Button & Language Switcher -->
+      <div class="flex items-center gap-3">
+        <!-- Language Switcher Button -->
+        <button id="lang-switch-btn" onclick="toggleLanguage()" class="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-dark-850 hover:bg-dark-800 border border-slate-700 text-xs font-bold text-slate-200 transition hover:border-emerald-500/40">
+          <i class="fa-solid fa-globe text-emerald-400"></i>
+          <span id="lang-label">English</span>
+        </button>
+
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/970566517077" target="_blank" class="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-emerald-400 hover:from-emerald-400 hover:to-cyan-400 text-dark-950 font-extrabold px-4 sm:px-5 py-2.5 rounded-xl shadow-lg shadow-emerald-500/20 transition-all transform hover:-translate-y-0.5 text-xs sm:text-sm">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span data-i18n="btn_whatsapp" class="hidden sm:inline">محادثة واتساب فورية</span>
+          <span data-i18n="btn_whatsapp_short" class="sm:hidden">تواصل</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-16 pb-24 lg:pt-24 lg:pb-32 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Hero Text -->
+        <div class="lg:col-span-8 text-center lg:text-start">
+          <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-emerald-500/30 bg-emerald-950/40 text-emerald-400 text-xs sm:text-sm font-bold mb-6">
+            <i class="fa-solid fa-flask-vial text-emerald-400"></i>
+            <span data-i18n="hero_badge">الصرامة التحليلية الصيدلانية مسخرة لنمو التجارة الإلكترونية</span>
+          </div>
+
+          <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black text-white leading-[1.2] tracking-tight mb-8">
+            <span data-i18n="hero_title_1">أحوّل ميزانياتك الإعلانية إلى</span> <br class="hidden sm:inline">
+            <span data-i18n="hero_title_gradient" class="gradient-text-emerald">أرباح تدفقية متنامية</span> <span data-i18n="hero_title_2">عبر الأداء والسيو</span>
+          </h1>
+
+          <p data-i18n="hero_desc" class="text-slate-300 text-base sm:text-xl leading-relaxed max-w-3xl mb-10">
+            أنا <strong>محمود عايش</strong>؛ مهندس نمو تسويقي وأخصائي سيو. أدمج بين دقة التحليل العلمي الصيدلاني وسيكولوجية المستهلك في السوق السعودي والخليجي والدولي؛ لإدارة حملات إعلانية عالية العائد (ROAS 4.25x+)، تصدر محركات البحث، وبناء بنية تتبع سيرفرية مقاومة لتحديثات الخصوصية.
+          </p>
+
+          <!-- CTAs -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 mb-12">
+            <a href="https://wa.me/970566517077" target="_blank" class="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-400 text-dark-950 font-black px-8 py-4 rounded-2xl shadow-xl shadow-emerald-500/25 transition transform hover:-translate-y-1 text-base">
+              <i class="fa-brands fa-whatsapp text-2xl"></i>
+              <span data-i18n="hero_cta_primary">اطلب استشارة مجانية لمتجرك الآن</span>
+            </a>
+            <a href="#cases" class="inline-flex items-center gap-2.5 bg-dark-850 hover:bg-dark-800 border border-slate-700 text-white font-bold px-7 py-4 rounded-2xl transition text-base">
+              <i class="fa-solid fa-chart-pie text-emerald-400"></i>
+              <span data-i18n="hero_cta_secondary">استعرض دراسات الحالة الموثقة</span>
+            </a>
+          </div>
+
+          <!-- Proof Badges -->
+          <div class="pt-6 border-t border-slate-800/80 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs text-slate-400 font-medium">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-shield-check text-emerald-400 text-base"></i>
+              <span data-i18n="proof_1">إدارة ميزانيات تتجاوز ربع مليون ريال</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-bolt text-cyan-400 text-base"></i>
+              <span data-i18n="proof_2">خبرة متقدمة في سلة، زد، وشوبيفاي</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-server text-amber-400 text-base"></i>
+              <span data-i18n="proof_3">تتبع سيرفري CAPI & GTM Server-Side</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Profile Card -->
+        <div class="lg:col-span-4">
+          <div class="relative gradient-border rounded-3xl p-6 sm:p-8 bg-dark-900/90 shadow-2xl glow-emerald">
+            <div class="flex items-center justify-between mb-6 pb-6 border-b border-slate-800">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center text-emerald-400 text-xl font-bold border border-emerald-500/30">
+                  <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <div>
+                  <h3 data-i18n="card_name" class="font-bold text-white text-base">محمود عايش</h3>
+                  <p data-i18n="card_role" class="text-xs text-emerald-400 font-semibold">Growth & E-Commerce Lead</p>
+                </div>
+              </div>
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold border border-emerald-500/20">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> <span data-i18n="card_status">نشط</span>
+              </span>
+            </div>
+
+            <!-- Profile Details -->
+            <div class="space-y-4 text-xs sm:text-sm">
+              <div class="flex justify-between items-center py-2 border-b border-slate-800/60">
+                <span data-i18n="card_field_1" class="text-slate-400">التخصص الرئيسي</span>
+                <span data-i18n="card_val_1" class="font-bold text-white">إعلانات الأداء والسيو التجاري</span>
+              </div>
+              <div class="flex justify-between items-center py-2 border-b border-slate-800/60">
+                <span data-i18n="card_field_2" class="text-slate-400">الأسواق المستهدفة</span>
+                <span data-i18n="card_val_2" class="font-bold text-emerald-400">السعودية، الخليج، دولي</span>
+              </div>
+              <div class="flex justify-between items-center py-2 border-b border-slate-800/60">
+                <span data-i18n="card_field_3" class="text-slate-400">الخلفية الأكاديمية</span>
+                <span data-i18n="card_val_3" class="font-bold text-white">بكالوريوس صيدلة (تحليل علمي)</span>
+              </div>
+              <div class="flex justify-between items-center py-2 border-b border-slate-800/60">
+                <span data-i18n="card_field_4" class="text-slate-400">قنوات الإعلانات</span>
+                <span class="font-bold text-cyan-400 font-num">Meta, TikTok, Snapchat, Google</span>
+              </div>
+              <div class="flex justify-between items-center py-2">
+                <span data-i18n="card_field_5" class="text-slate-400">أنظمة المتاجر</span>
+                <span class="font-bold text-amber-400 font-num">Salla, Zid, Shopify, WooCommerce</span>
+              </div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-slate-800">
+              <a href="https://wa.me/970566517077" target="_blank" data-i18n="card_cta" class="w-full text-center block py-3 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-xl border border-slate-700 transition text-xs">
+                حجز جلسة تدقيق استراتيجي &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Metrics Bar -->
+  <section id="results" class="py-12 bg-dark-900/60 border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8">
+        
+        <div class="gradient-border rounded-2xl p-6 text-center">
+          <div class="text-3xl sm:text-5xl font-black font-num text-emerald-400 mb-2">4.25x</div>
+          <div data-i18n="metric_1_title" class="text-xs sm:text-sm font-bold text-white mb-1">متوسط العائد الإعلاني (ROAS)</div>
+          <div data-i18n="metric_1_sub" class="text-[11px] text-slate-400">محقق عبر متاجر التجزئة والأزياء</div>
+        </div>
+
+        <div class="gradient-border rounded-2xl p-6 text-center">
+          <div class="text-3xl sm:text-5xl font-black font-num text-cyan-400 mb-2">+65%</div>
+          <div data-i18n="metric_2_title" class="text-xs sm:text-sm font-bold text-white mb-1">نمو الزيارات العضوية (SEO)</div>
+          <div data-i18n="metric_2_sub" class="text-[11px] text-slate-400">خلال 90 يوماً لصفحات الفئات</div>
+        </div>
+
+        <div class="gradient-border rounded-2xl p-6 text-center">
+          <div class="text-3xl sm:text-5xl font-black font-num text-amber-400 mb-2">0.020 <span class="text-xs font-jakarta font-normal">KWD</span></div>
+          <div data-i18n="metric_3_title" class="text-xs sm:text-sm font-bold text-white mb-1">أدنى تكلفة نقرة (CPC)</div>
+          <div data-i18n="metric_3_sub" class="text-[11px] text-slate-400">بفضل اختبار الخطافات الإعلانية</div>
+        </div>
+
+        <div class="gradient-border rounded-2xl p-6 text-center">
+          <div class="text-3xl sm:text-5xl font-black font-num text-purple-400 mb-2">100%</div>
+          <div data-i18n="metric_4_title" class="text-xs sm:text-sm font-bold text-white mb-1">دقة تتبع واجهة الخادم</div>
+          <div data-i18n="metric_4_sub" class="text-[11px] text-slate-400">Meta CAPI & Server GTM</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- The Analytical Advantage (Bento Grid) -->
+  <section id="philosophy" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span data-i18n="bento_badge" class="text-xs font-black tracking-widest text-emerald-400 uppercase bg-emerald-950/60 px-3.5 py-1.5 rounded-full border border-emerald-500/20">لماذا أسلوبي مختلف؟</span>
+      <h2 data-i18n="bento_title" class="text-3xl sm:text-5xl font-black text-white mt-4 mb-6 leading-tight">
+        الميزة التحليلية: التسويق كمعادلة كيميائية دقيقة
+      </h2>
+      <p data-i18n="bento_desc" class="text-slate-400 text-sm sm:text-base leading-relaxed">
+        معظم الحملات التسويقية تفشل لأنها تعتمد على التخمين. خلفيتي في العلوم الصيدلانية تمنحني ميزة نوعية: معاملة المتجر كنظام حيوي؛ تشخيص الخلل أولاً، ضبط الجرعات الإعلانية، وقياس استجابة المستهلك بالأرقام الصارمة.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Bento 1 -->
+      <div class="gradient-border rounded-3xl p-8 bg-dark-900/50 hover:border-emerald-500/40 transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-6 border border-emerald-500/20">
+            <i class="fa-solid fa-microscope"></i>
+          </div>
+          <h3 data-i18n="bento_card_1_title" class="text-xl font-bold text-white mb-3">تشخيص البيانات بدقة الفحص المخبري</h3>
+          <p data-i18n="bento_card_1_desc" class="text-slate-400 text-sm leading-relaxed mb-6">
+            لا أكتفي برؤية أرقام المبيعات الظاهرية؛ بل أقوم بتشريح مسار الشراء بالكامل: من معدل النقر (CTR)، إلى نسبة إضافة السلة (ATC)، ومعدل التخلي عن إتمام الطلب (Drop-off Rate) لعلاج مكان تسرب الميزانية فوراً.
+          </p>
+        </div>
+        <div class="bg-dark-950/60 p-4 rounded-2xl border border-slate-800 text-xs font-mono text-emerald-400 font-num">
+          Funnel Audit &rarr; Leak Isolation &rarr; CAC Reduction
+        </div>
+      </div>
+
+      <!-- Bento 2 -->
+      <div class="gradient-border rounded-3xl p-8 bg-dark-900/50 hover:border-cyan-500/40 transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl mb-6 border border-cyan-500/20">
+            <i class="fa-solid fa-bullseye-arrow"></i>
+          </div>
+          <h3 data-i18n="bento_card_2_title" class="text-xl font-bold text-white mb-3">سيو تجاري مبني على نية الشراء (Intent)</h3>
+          <p data-i18n="bento_card_2_desc" class="text-slate-400 text-sm leading-relaxed mb-6">
+            الزيارات التي لا تشتري هدر للموارد. أركز في سيو المتاجر على الكلمات المفتاحية ذات القصد التجاري الصريح (Transactional Keywords) التي يبحث عنها المشتري الجاهز للدفع فوراً.
+          </p>
+        </div>
+        <div class="bg-dark-950/60 p-4 rounded-2xl border border-slate-800 text-xs font-mono text-cyan-400 font-num">
+          High-Intent Keywords &rarr; Category SEO &rarr; Organic Sales
+        </div>
+      </div>
+
+      <!-- Bento 3 -->
+      <div class="gradient-border rounded-3xl p-8 bg-dark-900/50 hover:border-amber-500/40 transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-6 border border-amber-500/20">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+          <h3 data-i18n="bento_card_3_title" class="text-xl font-bold text-white mb-3">سيكولوجية وسلوك المستهلك الإقليمي</h3>
+          <p data-i18n="bento_card_3_desc" class="text-slate-400 text-sm leading-relaxed mb-6">
+            المتسوق في الخليج والشرق الأوسط يتفاعل مع محفزات دقيقة: إبراز الدفع عند الاستلام أو خيارات التقسيط (Tabby / Tamara)، تجارب الفيديو العفوية (UGC)، وعروض البكجات والشحن المجاني.
+          </p>
+        </div>
+        <div class="bg-dark-950/60 p-4 rounded-2xl border border-slate-800 text-xs font-mono text-amber-400 font-num">
+          Regional Triggers &rarr; Bundle Offers &rarr; AOV Growth
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Deep Dive Case Studies -->
+  <section id="cases" class="py-24 bg-dark-900/40 border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div>
+          <span data-i18n="cases_badge" class="text-xs font-black tracking-widest text-emerald-400 uppercase bg-emerald-950/60 px-3.5 py-1.5 rounded-full border border-emerald-500/20">النتائج على أرض الواقع</span>
+          <h2 data-i18n="cases_title" class="text-3xl sm:text-5xl font-black text-white mt-4">دراسات حالة تفصيلية موثقة</h2>
+        </div>
+        <p data-i18n="cases_desc" class="text-slate-400 text-sm max-w-md">
+          كيف ساعدت المتاجر في التغلب على عقبات الهدر الإعلاني وضعف الظهور وتحقيق عوائد قياسية بالأرقام.
+        </p>
+      </div>
+
+      <div class="space-y-16">
+        
+        <!-- Case Study 1 -->
+        <div class="gradient-border rounded-3xl p-6 sm:p-10 bg-dark-900/90 shadow-2xl">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <div class="lg:col-span-7 space-y-6">
+              <div class="flex flex-wrap items-center gap-2.5">
+                <span data-i18n="case_1_tag1" class="px-3 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold rounded-lg">إعلانات الأداء | Meta & TikTok</span>
+                <span data-i18n="case_1_tag2" class="px-3 py-1 bg-slate-800 text-slate-300 text-xs font-semibold rounded-lg">قطاع التجزئة والأزياء</span>
+                <span data-i18n="case_1_tag3" class="px-3 py-1 bg-slate-800 text-slate-300 text-xs font-semibold rounded-lg font-num">12 أسبوعاً</span>
+              </div>
+
+              <h3 data-i18n="case_1_headline" class="text-2xl sm:text-3xl font-bold text-white leading-snug">
+                مضاعفة العائد الإعلاني من 1.4x إلى 4.25x ROAS وتوليد 248,500 ريال مبيعات
+              </h3>
+
+              <div class="space-y-4 text-sm text-slate-300">
+                <div>
+                  <strong data-i18n="label_challenge" class="text-white block mb-1 text-xs uppercase tracking-wider text-rose-400">التحدي قبل التدخل:</strong>
+                  <p data-i18n="case_1_challenge" class="text-slate-400 leading-relaxed">
+                    متجر أزياء وإكسسوارات كان يعاني من ارتفاع تكلفة الشراء المباشر (CAC) وانخفاض العائد الإعلاني لـ 1.4x بسبب إطلاق إعلانات بصور ثابتة مكررة والاعتماد على استهدافات واسعة غير مجدية، بالإضافة لتسرب 70% من السلات المتروكة دون إعادة استهداف.
+                  </p>
+                </div>
+
+                <div>
+                  <strong data-i18n="label_solution" class="text-white block mb-1 text-xs uppercase tracking-wider text-emerald-400">الحل والتدخل الهندسي:</strong>
+                  <ul data-i18n="case_1_solution_list" class="list-disc list-inside space-y-1.5 text-slate-300">
+                    <li>إعادة هيكلة الحساب الإعلاني إلى مسار شراء ثلاثي: (Top, Middle, Bottom of Funnel).</li>
+                    <li>إطلاق اختبارات خطافات إعلانية (Creative Hooks) تركز على تصوير الفيديو التفاعلي وعفوية اللبس.</li>
+                    <li>تفعيل إعلانات الكتالوج الديناميكي (DPA) لإعادة استهداف من تركوا السلة بعروض شحن مجاني مخصصة.</li>
+                    <li>ربط كامل لـ Meta Conversions API و TikTok Events API لضمان دقة الإسناد.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Metrics -->
+              <div class="grid grid-cols-3 gap-4 pt-4 border-t border-slate-800">
+                <div class="bg-dark-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-2xl sm:text-3xl font-black font-num text-emerald-400">4.25x</div>
+                  <div data-i18n="case_1_m1" class="text-xs text-slate-400 mt-1">العائد المحقق (ROAS)</div>
+                </div>
+                <div class="bg-dark-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-2xl sm:text-3xl font-black font-num text-white">248,500 <span data-i18n="curr_sar" class="text-xs">ر.س</span></div>
+                  <div data-i18n="case_1_m2" class="text-xs text-slate-400 mt-1">إجمالي الإيرادات</div>
+                </div>
+                <div class="bg-dark-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-2xl sm:text-3xl font-black font-num text-cyan-400">-28%</div>
+                  <div data-i18n="case_1_m3" class="text-xs text-slate-400 mt-1">خفض تكلفة الاكتساب</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dashboard Image Preview -->
+            <div class="lg:col-span-5">
+              <div class="relative group rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-dark-950 p-2">
+                <img src="https://drive.google.com/thumbnail?id=1M4XUJj3jT3IW5nJ6y_x_l7xdxYvzCYsa&sz=w1000" alt="Performance Marketing Dashboard" class="rounded-xl w-full object-cover group-hover:scale-[1.02] transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-dark-950/80 via-transparent to-transparent flex items-end p-4">
+                  <span data-i18n="case_1_caption" class="text-xs font-bold text-slate-300 bg-dark-900/90 px-3 py-1.5 rounded-lg border border-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-chart-line text-emerald-400"></i> لوحة أداء حملات Meta & TikTok
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Case Study 2 -->
+        <div class="gradient-border rounded-3xl p-6 sm:p-10 bg-dark-900/90 shadow-2xl">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <div class="lg:col-span-7 space-y-6">
+              <div class="flex flex-wrap items-center gap-2.5">
+                <span data-i18n="case_2_tag1" class="px-3 py-1 bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 text-xs font-bold rounded-lg">سيو التجارة الإلكترونية | E-Commerce SEO</span>
+                <span data-i18n="case_2_tag2" class="px-3 py-1 bg-slate-800 text-slate-300 text-xs font-semibold rounded-lg">منصة سلة (Salla)</span>
+                <span data-i18n="case_2_tag3" class="px-3 py-1 bg-slate-800 text-slate-300 text-xs font-semibold rounded-lg font-num">90 يوماً</span>
+              </div>
+
+              <h3 data-i18n="case_2_headline" class="text-2xl sm:text-3xl font-bold text-white leading-snug">
+                نمو الزيارات العضوية بنسبة +65% وتصدر 14 مصطلحاً تجارياً عالي القيمة
+              </h3>
+
+              <div class="space-y-4 text-sm text-slate-300">
+                <div>
+                  <strong data-i18n="label_challenge" class="text-white block mb-1 text-xs uppercase tracking-wider text-rose-400">التحدي قبل التدخل:</strong>
+                  <p data-i18n="case_2_challenge" class="text-slate-400 leading-relaxed">
+                    متجر يعمل على منصة سلة يعتمد بنسبة 100% على الإعلانات الممولة. بمجرد إيقاف الإعلانات تتوقف المبيعات فوراً لغياب أي وجود في الصفحة الأولى من قوقل لصفحات التصنيفات والمنتجات.
+                  </p>
+                </div>
+
+                <div>
+                  <strong data-i18n="label_solution" class="text-white block mb-1 text-xs uppercase tracking-wider text-cyan-400">الحل والتدخل الهندسي:</strong>
+                  <ul data-i18n="case_2_solution_list" class="list-disc list-inside space-y-1.5 text-slate-300">
+                    <li>استخراج 120+ كلمة مفتاحية تجارية محلية ذات نية شراء صريحة في مدن الرياض وجدة والدمام.</li>
+                    <li>إعادة تهيئة سيو التصنيفات (Category SEO) وكتابة أوصاف دلالية غنية للـ On-Page SEO.</li>
+                    <li>تطبيق ترميز البيانات المنظمة (Product & Review Schema) لإظهار الأسعار والتقييمات في نتائج قوقل.</li>
+                    <li>بناء شبكة روابط داخلية قوية (Internal Linking) لتركيز قوة الأرشفة على الفئات الأعلى ربحية.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Metrics -->
+              <div class="grid grid-cols-3 gap-4 pt-4 border-t border-slate-800">
+                <div class="bg-dark-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-2xl sm:text-3xl font-black font-num text-cyan-400">+65%</div>
+                  <div data-i18n="case_2_m1" class="text-xs text-slate-400 mt-1">نمو الزيارات العضوية</div>
+                </div>
+                <div class="bg-dark-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-2xl sm:text-3xl font-black font-num text-white">48,200</div>
+                  <div data-i18n="case_2_m2" class="text-xs text-slate-400 mt-1">نقرة مجانية من قوقل</div>
+                </div>
+                <div class="bg-dark-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-2xl sm:text-3xl font-black font-num text-emerald-400">14</div>
+                  <div data-i18n="case_2_m3" class="text-xs text-slate-400 mt-1">كلمة في المركز #1</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dashboard Image Preview -->
+            <div class="lg:col-span-5">
+              <div class="relative group rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-dark-950 p-2">
+                <img src="https://drive.google.com/thumbnail?id=1L9zH0NIsZY1WFuTHRvpxA21VGP3TDz0H&sz=w1000" alt="SEO Dashboard" class="rounded-xl w-full object-cover group-hover:scale-[1.02] transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-dark-950/80 via-transparent to-transparent flex items-end p-4">
+                  <span data-i18n="case_2_caption" class="text-xs font-bold text-slate-300 bg-dark-900/90 px-3 py-1.5 rounded-lg border border-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-magnifying-glass text-cyan-400"></i> بيانات Google Search Console الموثقة
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Case Study 3 -->
+        <div class="gradient-border rounded-3xl p-6 sm:p-10 bg-dark-900/90 shadow-2xl">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <div class="lg:col-span-7 space-y-6">
+              <div class="flex flex-wrap items-center gap-2.5">
+                <span data-i18n="case_3_tag1" class="px-3 py-1 bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-bold rounded-lg">التتبع المتقدم | Server-Side Tracking</span>
+                <span data-i18n="case_3_tag2" class="px-3 py-1 bg-slate-800 text-slate-300 text-xs font-semibold rounded-lg font-num">CAPI & Core Web Vitals</span>
+                <span data-i18n="case_3_tag3" class="px-3 py-1 bg-slate-800 text-slate-300 text-xs font-semibold rounded-lg">تدقيق شامل</span>
+              </div>
+
+              <h3 data-i18n="case_3_headline" class="text-2xl sm:text-3xl font-bold text-white leading-snug">
+                حل 100% من أخطاء الفهرسة ورفع سرعة الجوال لـ 88/100 مع تتبع سيرفري فائق
+              </h3>
+
+              <div class="space-y-4 text-sm text-slate-300">
+                <div>
+                  <strong data-i18n="label_challenge" class="text-white block mb-1 text-xs uppercase tracking-wider text-rose-400">التحدي قبل التدخل:</strong>
+                  <p data-i18n="case_3_challenge" class="text-slate-400 leading-relaxed">
+                    تأثر الحسابات الإعلانية بحظر التتبع في تحديثات iOS مما أدى لفقدان تتبع 30% من المبيعات، مع وجود بطء شديد في تحميل صفحات المتجر على أجهزة الجوال وأخطاء زحف وفهرسة كثيرة في Search Console.
+                  </p>
+                </div>
+
+                <div>
+                  <strong data-i18n="label_solution" class="text-white block mb-1 text-xs uppercase tracking-wider text-amber-400">الحل والتدخل الهندسي:</strong>
+                  <ul data-i18n="case_3_solution_list" class="list-disc list-inside space-y-1.5 text-slate-300">
+                    <li>تأسيس حاوية Google Tag Manager متقدمة وربط تتبع الخادم (Server-side GTM).</li>
+                    <li>تفعيل Meta Conversions API و TikTok Server Events مع معالجة حجب الكوكيز.</li>
+                    <li>ضغط وتحديث موارد الويب والصور وتحسين مقاييس Core Web Vitals للجوال.</li>
+                    <li>إصلاح ملفات sitemap.xml و robots.txt وحل جميع الروابط المعطوبة 404.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Metrics -->
+              <div class="grid grid-cols-3 gap-4 pt-4 border-t border-slate-800">
+                <div class="bg-dark-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-2xl sm:text-3xl font-black font-num text-amber-400">100%</div>
+                  <div data-i18n="case_3_m1" class="text-xs text-slate-400 mt-1">إصلاح الفهرسة</div>
+                </div>
+                <div class="bg-dark-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-2xl sm:text-3xl font-black font-num text-white">88/100</div>
+                  <div data-i18n="case_3_m2" class="text-xs text-slate-400 mt-1">سرعة الجوال في PageSpeed</div>
+                </div>
+                <div class="bg-dark-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-2xl sm:text-3xl font-black font-num text-emerald-400">Zero</div>
+                  <div data-i18n="case_3_m3" class="text-xs text-slate-400 mt-1">فقدان في بيانات الشراء</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dashboard Image Preview -->
+            <div class="lg:col-span-5">
+              <div class="relative group rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-dark-950 p-2">
+                <img src="https://drive.google.com/thumbnail?id=1-UyhWAIHNCIWPK9VZvHTw2pP4eArYw9B&sz=w1000" alt="Technical SEO & Tracking Report" class="rounded-xl w-full object-cover group-hover:scale-[1.02] transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-dark-950/80 via-transparent to-transparent flex items-end p-4">
+                  <span data-i18n="case_3_caption" class="text-xs font-bold text-slate-300 bg-dark-900/90 px-3 py-1.5 rounded-lg border border-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-server text-amber-400"></i> تقرير مؤشرات الأداء التقنية
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive ROI & ROAS Calculator -->
+  <section id="calculator" class="py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="gradient-border rounded-3xl p-8 sm:p-12 bg-gradient-to-br from-dark-900 via-dark-850 to-dark-950 shadow-2xl glow-cyan">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span data-i18n="calc_badge" class="text-xs font-black tracking-widest text-cyan-400 uppercase bg-cyan-950/60 px-3.5 py-1.5 rounded-full border border-cyan-500/20">أداة تفاعلية لأصحاب المتاجر</span>
+        <h2 data-i18n="calc_title" class="text-2xl sm:text-4xl font-extrabold text-white mt-3">احسب العائد المتوقع لمتجرك معنا</h2>
+        <p data-i18n="calc_desc" class="text-slate-400 text-xs sm:text-sm mt-2">
+          حرّك الميزانية الشهرية لمشاهدة تأثير تحسين العائد الإعلاني ومضاعفة المبيعات.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <!-- Sliders -->
+        <div class="space-y-6">
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <label data-i18n="calc_budget_label" class="text-sm font-bold text-white">ميزانيتك الإعلانية الشهرية المتوقعة:</label>
+              <span id="budget-val" class="text-lg font-black font-num text-emerald-400">10,000</span>
+            </div>
+            <input type="range" id="budget-slider" min="1000" max="50000" step="1000" value="10000" class="w-full accent-emerald-400 cursor-pointer bg-slate-800 rounded-lg h-2">
+            <div class="flex justify-between text-[10px] text-slate-500 mt-1 font-num">
+              <span>1,000</span>
+              <span>25,000</span>
+              <span>50,000</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <label data-i18n="calc_roas_label" class="text-sm font-bold text-white">العائد الإعلاني المستهدف (Target ROAS):</label>
+              <span id="roas-val" class="text-lg font-black font-num text-cyan-400">4.0x</span>
+            </div>
+            <input type="range" id="roas-slider" min="2.0" max="6.0" step="0.5" value="4.0" class="w-full accent-cyan-400 cursor-pointer bg-slate-800 rounded-lg h-2">
+            <div class="flex justify-between text-[10px] text-slate-500 mt-1 font-num">
+              <span>2.0x</span>
+              <span>4.0x</span>
+              <span>6.0x</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Result Box -->
+        <div class="bg-dark-950/80 p-6 sm:p-8 rounded-2xl border border-slate-700/80 text-center space-y-4">
+          <div data-i18n="calc_result_label" class="text-xs text-slate-400 font-semibold uppercase tracking-wider">الإيرادات الشهرية المتوقعة من الحملات:</div>
+          <div id="revenue-val" class="text-3xl sm:text-5xl font-black font-num text-white leading-none">
+            40,000 <span id="currency-tag" class="text-base sm:text-lg font-bold text-emerald-400">ريال / دولار</span>
+          </div>
+          <div class="text-xs text-slate-400 pt-2 border-t border-slate-800/80">
+            <span data-i18n="calc_net_label">صافي القيمة التقديرية المضافة بعد خصم الميزانية:</span> <span id="net-val" class="font-bold text-emerald-400 font-num">30,000</span>
+          </div>
+          <div class="pt-2">
+            <a href="https://wa.me/970566517077" target="_blank" data-i18n="calc_cta" class="w-full block py-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-dark-950 font-extrabold rounded-xl shadow-lg hover:opacity-95 transition text-xs sm:text-sm">
+              ناقش تحقيق هذا الهدف معي الآن &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Core Services Section -->
+  <section id="services" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span data-i18n="services_badge" class="text-xs font-black tracking-widest text-emerald-400 uppercase bg-emerald-950/60 px-3.5 py-1.5 rounded-full border border-emerald-500/20">منظومة الخدمات الاستراتيجية</span>
+      <h2 data-i18n="services_title" class="text-3xl sm:text-5xl font-black text-white mt-4 mb-4">خدمات مصممة لمضاعفة مبيعاتك</h2>
+      <p data-i18n="services_desc" class="text-slate-400 text-sm sm:text-base">
+        لا أقدم خدمات مبعثرة، بل منظومة نمو متكاملة تبدأ من البنية التحتية حتى التوسع وتكرار الشراء.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Service 1 -->
+      <div class="gradient-border rounded-3xl p-8 bg-dark-900/60 flex flex-col justify-between hover:border-emerald-500/40 transition">
+        <div>
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-2xl mb-6 border border-emerald-500/20">
+            <i class="fa-solid fa-chart-line-up"></i>
+          </div>
+          <h3 data-i18n="srv_1_title" class="text-xl font-bold text-white mb-3">إعلانات الأداء والتوسع (Performance Media Buying)</h3>
+          <p data-i18n="srv_1_desc" class="text-slate-400 text-sm leading-relaxed mb-6">
+            إدارة وتوسيع حملات Meta Ads (إنستغرام/فيسبوك)، TikTok Ads، و Snapchat Ads مع ضبط زوايا الكرييتف، إعلانات الكتالوج (DPA)، واسترجاع السلات المتروكة بأعلى ROAS.
+          </p>
+          <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> <span data-i18n="srv_1_f1">اختبار مستمر للخطافات الإعلانية (Hooks)</span></li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> <span data-i18n="srv_1_f2">عروض مخصصة للمتسوق في الخليج ودولياً</span></li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> <span data-i18n="srv_1_f3">تقارير أداء أسبوعية بلغة الأرباح الصافية</span></li>
+          </ul>
+        </div>
+        <a href="https://wa.me/970566517077" target="_blank" data-i18n="srv_1_link" class="text-xs font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1">
+          طلب إدارة الحملات الإعلانية &rarr;
+        </a>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="gradient-border rounded-3xl p-8 bg-dark-900/60 flex flex-col justify-between hover:border-cyan-500/40 transition">
+        <div>
+          <div class="w-14 h-14 rounded-2xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-2xl mb-6 border border-cyan-500/20">
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+          </div>
+          <h3 data-i18n="srv_2_title" class="text-xl font-bold text-white mb-3">سيو المتاجر الإلكترونية (E-Commerce SEO)</h3>
+          <p data-i18n="srv_2_desc" class="text-slate-400 text-sm leading-relaxed mb-6">
+            تصدر نتائج قوقل الأولى لمتاجر سلة، زد، وشوبيفاي؛ استهداف كلمات نية الشراء العالية، تحسين أوصاف الفئات، وتفعيل ترميز Schema لضمان تدفق عملاء دائم بدون تكلفة نقرات.
+          </p>
+          <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> <span data-i18n="srv_2_f1">بحث الكلمات المفتاحية ذات القصد التجاري</span></li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> <span data-i18n="srv_2_f2">تهيئة سيو الفئات والمنتجات (On-Page)</span></li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> <span data-i18n="srv_2_f3">تحسين السيو المحلي (Local SEO) للمدن</span></li>
+          </ul>
+        </div>
+        <a href="https://wa.me/970566517077" target="_blank" data-i18n="srv_2_link" class="text-xs font-bold text-cyan-400 hover:text-cyan-300 flex items-center gap-1">
+          طلب تهيئة السيو لمتجرك &rarr;
+        </a>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="gradient-border rounded-3xl p-8 bg-dark-900/60 flex flex-col justify-between hover:border-amber-500/40 transition">
+        <div>
+          <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-2xl mb-6 border border-amber-500/20">
+            <i class="fa-solid fa-server"></i>
+          </div>
+          <h3 data-i18n="srv_3_title" class="text-xl font-bold text-white mb-3">التتبع السيرفري والتحليلات (Tracking & CAPI)</h3>
+          <p data-i18n="srv_3_desc" class="text-slate-400 text-sm leading-relaxed mb-6">
+            إعداد وتصحيح البنية التحتية للتتبع عبر Google Tag Manager و GA4 وواجهات تحويلات الخادم (Meta CAPI & TikTok Events) لتسجيل 100% من بيانات المبيعات بدقة فائقة.
+          </p>
+          <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400"></i> <span data-i18n="srv_3_f1">حل مشاكل حظر التتبع على أجهزة iOS</span></li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400"></i> <span data-i18n="srv_3_f2">تتبع كامل لأحداث الشراء والسلات المتروكة</span></li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-400"></i> <span data-i18n="srv_3_f3">لوحة قياس مؤشرات واضحة لمتخذ القرار</span></li>
+          </ul>
+        </div>
+        <a href="https://wa.me/970566517077" target="_blank" data-i18n="srv_3_link" class="text-xs font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1">
+          طلب إعداد وتصحيح التتبع &rarr;
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive FAQ Section -->
+  <section id="faq" class="py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <span data-i18n="faq_badge" class="text-xs font-black tracking-widest text-emerald-400 uppercase bg-emerald-950/60 px-3.5 py-1.5 rounded-full border border-emerald-500/20">إجابات واضحة</span>
+      <h2 data-i18n="faq_title" class="text-3xl sm:text-4xl font-extrabold text-white mt-3">الأسئلة الشائعة لأصحاب المتاجر</h2>
+    </div>
+
+    <div class="space-y-4">
+      
+      <details class="gradient-border rounded-2xl p-5 bg-dark-900/60 cursor-pointer group">
+        <summary class="font-bold text-white text-base flex justify-between items-center select-none">
+          <span data-i18n="faq_q1">كم من الوقت يستغرق ظهور نتائج تحسين السيو في متجري؟</span>
+          <i class="fa-solid fa-chevron-down text-emerald-400 group-open:rotate-180 transition"></i>
+        </summary>
+        <p data-i18n="faq_a1" class="text-slate-400 text-sm leading-relaxed mt-4 pt-4 border-t border-slate-800">
+          في منصات التجارة الإلكترونية مثل سلة وشوبيفاي، تبدأ النتائج الأولية للأرشفة وفهرسة الكلمات المستهدفة بالظهور بين 3 إلى 6 أسابيع، وتصل إلى أعلى مستوياتها خلال 60 إلى 90 يوماً مع استمرار تدفق الزيارات العضوية وتصدر الكلمات التجارية.
+        </p>
+      </details>
+
+      <details class="gradient-border rounded-2xl p-5 bg-dark-900/60 cursor-pointer group">
+        <summary class="font-bold text-white text-base flex justify-between items-center select-none">
+          <span data-i18n="faq_q2">ما هي الميزانية الإعلانية المناسبة للبدء في الحملات؟</span>
+          <i class="fa-solid fa-chevron-down text-emerald-400 group-open:rotate-180 transition"></i>
+        </summary>
+        <p data-i18n="faq_a2" class="text-slate-400 text-sm leading-relaxed mt-4 pt-4 border-t border-slate-800">
+          الميزانية تعتمد على هوامش ربح منتجك، ولكن كقاعدة عامة للمتاجر بالسوق الخليجي ننصح بميزانية اختبار تبدأ من 3,000 إلى 5,000 ريال شهرياً (أو ما يعادلها) كافية لاختبار الجماهير والخطافات الإعلانية وتحديد الإعلانات الرابحة قبل مضاعفة الإنفاق.
+        </p>
+      </details>
+
+      <details class="gradient-border rounded-2xl p-5 bg-dark-900/60 cursor-pointer group">
+        <summary class="font-bold text-white text-base flex justify-between items-center select-none">
+          <span data-i18n="faq_q3">كيف يضمن التتبع السيرفري (CAPI) عدم ضياع بيانات مبيعاتي؟</span>
+          <i class="fa-solid fa-chevron-down text-emerald-400 group-open:rotate-180 transition"></i>
+        </summary>
+        <p data-i18n="faq_a3" class="text-slate-400 text-sm leading-relaxed mt-4 pt-4 border-t border-slate-800">
+          البيكسل العادي يعتمد على متصفح العميل الذي قد يحجب البيانات بسبب برامج حظر الإعلانات أو تحديثات iOS. بينما التتبع عبر الخادم (Conversions API) يرسل بيانات الطلب مباشرة من سيرفر المتجر إلى سيرفرات المنصات، مما يضمن تسجيل 100% من التحويلات ومساعدة الخوارزمية في إيجاد مشترين مماثلين.
+        </p>
+      </details>
+
+      <details class="gradient-border rounded-2xl p-5 bg-dark-900/60 cursor-pointer group">
+        <summary class="font-bold text-white text-base flex justify-between items-center select-none">
+          <span data-i18n="faq_q4">كيف نبدأ العمل معاً؟</span>
+          <i class="fa-solid fa-chevron-down text-emerald-400 group-open:rotate-180 transition"></i>
+        </summary>
+        <p data-i18n="faq_a4" class="text-slate-400 text-sm leading-relaxed mt-4 pt-4 border-t border-slate-800">
+          نبدأ بجلسة تدقيق مجانية سريعة (Audit) عبر الواتساب؛ أقوم فيها بفحص متجرك، إعلاناتك السابقة، ونقاط الهدر، وأقدم لك خطة عمل واضحة ذات أهداف ورقم ROAS مستهدف قبل بدء أي تعاقد.
+        </p>
+      </details>
+
+    </div>
+  </section>
+
+  <!-- Final Call to Action Section -->
+  <section id="contact" class="py-24 relative overflow-hidden">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="relative gradient-border rounded-3xl p-10 sm:p-16 bg-gradient-to-br from-dark-900 via-dark-850 to-dark-950 text-center shadow-2xl glow-emerald">
+        
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold mb-6">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> <span data-i18n="contact_status">جلسات الاستشارة متاحة هذا الأسبوع</span>
+        </div>
+
+        <h2 data-i18n="contact_title" class="text-3xl sm:text-5xl font-black text-white mb-6 leading-tight">
+          جاهز لرفع مبيعات متجرك وتصدر محركات البحث؟
+        </h2>
+        
+        <p data-i18n="contact_desc" class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+          تواصل معي الآن عبر الواتساب، وسأقوم بعمل فحص وتدقيق أولي لمتجرك، موضحاً لك 3 فرص فورية لخفض تكلفة الإعلانات ورفع المبيعات مجاناً.
+        </p>
+
+        <div class="flex flex-wrap items-center justify-center gap-4 mb-10">
+          <a href="https://wa.me/970566517077" target="_blank" class="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-400 text-dark-950 font-black px-10 py-5 rounded-2xl text-lg shadow-xl shadow-emerald-500/25 transition transform hover:-translate-y-1">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            <span data-i18n="contact_whatsapp_btn">تحدث معي عبر واتساب الآن</span>
+          </a>
+          <a href="mailto:mahmmoudnashata@gmail.com" class="inline-flex items-center gap-2.5 bg-dark-850 hover:bg-dark-800 border border-slate-700 text-white font-bold px-8 py-5 rounded-2xl transition text-base">
+            <i class="fa-solid fa-envelope text-emerald-400"></i>
+            <span data-i18n="contact_email_btn">مراسلة عبر البريد الإلكتروني</span>
+          </a>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-8 text-xs text-slate-400 font-num">
+          <span class="flex items-center gap-2"><i class="fa-solid fa-phone text-emerald-400"></i> +970 566 517 077</span>
+          <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-cyan-400"></i> <span data-i18n="contact_loc">متاح للعمل عن بُعد للخليج ودولياً</span></span>
+          <span class="flex items-center gap-2"><i class="fa-brands fa-linkedin text-blue-400"></i> linkedin.com/in/mahmoud-ataayesh-371b73225</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-slate-800 text-center text-xs text-slate-500 bg-dark-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div data-i18n="footer_copy">© 2026 محمود عايش — أخصائي تسويق رقمي وأداء وسيو | جميع الحقوق محفوظة</div>
+      <div class="flex items-center gap-6">
+        <a href="https://linkedin.com/in/mahmoud-ataayesh-371b73225" target="_blank" class="text-slate-400 hover:text-emerald-400 transition text-lg"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://wa.me/970566517077" target="_blank" class="text-slate-400 hover:text-emerald-400 transition text-lg"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:mahmmoudnashata@gmail.com" class="text-slate-400 hover:text-emerald-400 transition text-lg"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Translation Dictionary & Interactive Logic -->
+  <script>
+    const translations = {
+      ar: {
+        announcement_text: "متاح لاستقبال شراكات نمو جديدة للمتاجر والشركات للربع الحالي",
+        announcement_cta: "احجز تدقيقاً مجانياً لمتجرك &larr;",
+        brand_name: "محمود عايش",
+        brand_tagline: "Performance Marketing & E-Commerce SEO",
+        nav_philosophy: "المنهجية التحليلية",
+        nav_results: "مؤشرات الأداء",
+        nav_cases: "دراسات الحالة",
+        nav_services: "الخدمات الاستراتيجية",
+        nav_calculator: "حاسبة العائد",
+        nav_faq: "الأسئلة الشائعة",
+        btn_whatsapp: "محادثة واتساب فورية",
+        btn_whatsapp_short: "تواصل",
+        hero_badge: "الصرامة التحليلية الصيدلانية مسخرة لنمو التجارة الإلكترونية",
+        hero_title_1: "أحوّل ميزانياتك الإعلانية إلى",
+        hero_title_gradient: "أرباح تدفقية متنامية",
+        hero_title_2: "عبر الأداء والسيو",
+        hero_desc: "أنا <strong>محمود عايش</strong>؛ مهندس نمو تسويقي وأخصائي سيو. أدمج بين دقة التحليل العلمي الصيدلاني وسيكولوجية المستهلك في السوق السعودي والخليجي والدولي؛ لإدارة حملات إعلانية عالية العائد (ROAS 4.25x+)، تصدر محركات البحث، وبناء بنية تتبع سيرفرية مقاومة لتحديثات الخصوصية.",
+        hero_cta_primary: "اطلب استشارة مجانية لمتجرك الآن",
+        hero_cta_secondary: "استعرض دراسات الحالة الموثقة",
+        proof_1: "إدارة ميزانيات تتجاوز ربع مليون ريال",
+        proof_2: "خبرة متقدمة في سلة، زد، وشوبيفاي",
+        proof_3: "تتبع سيرفري CAPI & GTM Server-Side",
+        card_name: "محمود عايش",
+        card_role: "Growth & E-Commerce Lead",
+        card_status: "نشط",
+        card_field_1: "التخصص الرئيسي",
+        card_val_1: "إعلانات الأداء والسيو التجاري",
+        card_field_2: "الأسواق المستهدفة",
+        card_val_2: "السعودية، الخليج، دولي",
+        card_field_3: "الخلفية الأكاديمية",
+        card_val_3: "بكالوريوس صيدلة (تحليل علمي)",
+        card_field_4: "قنوات الإعلانات",
+        card_field_5: "أنظمة المتاجر",
+        card_cta: "حجز جلسة تدقيق استراتيجي &larr;",
+        metric_1_title: "متوسط العائد الإعلاني (ROAS)",
+        metric_1_sub: "محقق عبر متاجر التجزئة والأزياء",
+        metric_2_title: "نمو الزيارات العضوية (SEO)",
+        metric_2_sub: "خلال 90 يوماً لصفحات الفئات",
+        metric_3_title: "أدنى تكلفة نقرة (CPC)",
+        metric_3_sub: "بفضل اختبار الخطافات الإعلانية",
+        metric_4_title: "دقة تتبع واجهة الخادم",
+        metric_4_sub: "Meta CAPI & Server GTM",
+        bento_badge: "لماذا أسلوبي مختلف؟",
+        bento_title: "الميزة التحليلية: التسويق كمعادلة كيميائية دقيقة",
+        bento_desc: "معظم الحملات التسويقية تفشل لأنها تعتمد على التخمين. خلفيتي في العلوم الصيدلانية تمنحني ميزة نوعية: معاملة المتجر كنظام حيوي؛ تشخيص الخلل أولاً، ضبط الجرعات الإعلانية، وقياس استجابة المستهلك بالأرقام الصارمة.",
+        bento_card_1_title: "تشخيص البيانات بدقة الفحص المخبري",
+        bento_card_1_desc: "لا أكتفي برؤية أرقام المبيعات الظاهرية؛ بل أقوم بتشريح مسار الشراء بالكامل: من معدل النقر (CTR)، إلى نسبة إضافة السلة (ATC)، ومعدل التخلي عن إتمام الطلب (Drop-off Rate) لعلاج مكان تسرب الميزانية فوراً.",
+        bento_card_2_title: "سيو تجاري مبني على نية الشراء (Intent)",
+        bento_card_2_desc: "الزيارات التي لا تشتري هدر للموارد. أركز في سيو المتاجر على الكلمات المفتاحية ذات القصد التجاري الصريح (Transactional Keywords) التي يبحث عنها المشتري الجاهز للدفع فوراً.",
+        bento_card_3_title: "سيكولوجية وسلوك المستهلك الإقليمي",
+        bento_card_3_desc: "المتسوق في الخليج والشرق الأوسط يتفاعل مع محفزات دقيقة: إبراز الدفع عند الاستلام أو خيارات التقسيط (Tabby / Tamara)، تجارب الفيديو العفوية (UGC)، وعروض البكجات والشحن المجاني.",
+        cases_badge: "النتائج على أرض الواقع",
+        cases_title: "دراسات حالة تفصيلية موثقة",
+        cases_desc: "كيف ساعدت المتاجر في التغلب على عقبات الهدر الإعلاني وضعف الظهور وتحقيق عوائد قياسية بالأرقام.",
+        case_1_tag1: "إعلانات الأداء | Meta & TikTok",
+        case_1_tag2: "قطاع التجزئة والأزياء",
+        case_1_tag3: "12 أسبوعاً",
+        case_1_headline: "مضاعفة العائد الإعلاني من 1.4x إلى 4.25x ROAS وتوليد 248,500 ريال مبيعات",
+        label_challenge: "التحدي قبل التدخل:",
+        case_1_challenge: "متجر أزياء وإكسسوارات كان يعاني من ارتفاع تكلفة الشراء المباشر (CAC) وانخفاض العائد الإعلاني لـ 1.4x بسبب إطلاق إعلانات بصور ثابتة مكررة والاعتماد على استهدافات واسعة غير مجدية، بالإضافة لتسرب 70% من السلات المتروكة دون إعادة استهداف.",
+        label_solution: "الحل والتدخل الهندسي:",
+        case_1_solution_list: `
+          <li>إعادة هيكلة الحساب الإعلاني إلى مسار شراء ثلاثي: (Top, Middle, Bottom of Funnel).</li>
+          <li>إطلاق اختبارات خطافات إعلانية (Creative Hooks) تركز على تصوير الفيديو التفاعلي وعفوية اللبس.</li>
+          <li>تفعيل إعلانات الكتالوج الديناميكي (DPA) لإعادة استهداف من تركوا السلة بعروض شحن مجاني مخصصة.</li>
+          <li>ربط كامل لـ Meta Conversions API و TikTok Events API لضمان دقة الإسناد.</li>
+        `,
+        case_1_m1: "العائد المحقق (ROAS)",
+        curr_sar: "ر.س",
+        case_1_m2: "إجمالي الإيرادات",
+        case_1_m3: "خفض تكلفة الاكتساب",
+        case_1_caption: "لوحة أداء حملات Meta & TikTok",
+        case_2_tag1: "سيو التجارة الإلكترونية | E-Commerce SEO",
+        case_2_tag2: "منصة سلة (Salla)",
+        case_2_tag3: "90 يوماً",
+        case_2_headline: "نمو الزيارات العضوية بنسبة +65% وتصدر 14 مصطلحاً تجارياً عالي القيمة",
+        case_2_challenge: "متجر يعمل على منصة سلة يعتمد بنسبة 100% على الإعلانات الممولة. بمجرد إيقاف الإعلانات تتوقف المبيعات فوراً لغياب أي وجود في الصفحة الأولى من قوقل لصفحات التصنيفات والمنتجات.",
+        case_2_solution_list: `
+          <li>استخراج 120+ كلمة مفتاحية تجارية محلية ذات نية شراء صريحة في مدن الرياض وجدة والدمام.</li>
+          <li>إعادة تهيئة سيو التصنيفات (Category SEO) وكتابة أوصاف دلالية غنية للـ On-Page SEO.</li>
+          <li>تطبيق ترميز البيانات المنظمة (Product & Review Schema) لإظهار الأسعار والتقييمات في نتائج قوقل.</li>
+          <li>بناء شبكة روابط داخلية قوية (Internal Linking) لتركيز قوة الأرشفة على الفئات الأعلى ربحية.</li>
+        `,
+        case_2_m1: "نمو الزيارات العضوية",
+        case_2_m2: "نقرة مجانية من قوقل",
+        case_2_m3: "كلمة في المركز #1",
+        case_2_caption: "بيانات Google Search Console الموثقة",
+        case_3_tag1: "التتبع المتقدم | Server-Side Tracking",
+        case_3_tag2: "CAPI & Core Web Vitals",
+        case_3_tag3: "تدقيق شامل",
+        case_3_headline: "حل 100% من أخطاء الفهرسة ورفع سرعة الجوال لـ 88/100 مع تتبع سيرفري فائق",
+        case_3_challenge: "تأثر الحسابات الإعلانية بحظر التتبع في تحديثات iOS مما أدى لفقدان تتبع 30% من المبيعات، مع وجود بطء شديد في تحميل صفحات المتجر على أجهزة الجوال وأخطاء زحف وفهرسة كثيرة في Search Console.",
+        case_3_solution_list: `
+          <li>تأسيس حاوية Google Tag Manager متقدمة وربط تتبع الخادم (Server-side GTM).</li>
+          <li>تفعيل Meta Conversions API و TikTok Server Events مع معالجة حجب الكوكيز.</li>
+          <li>ضغط وتحديث موارد الويب والصور وتحسين مقاييس Core Web Vitals للجوال.</li>
+          <li>إصلاح ملفات sitemap.xml و robots.txt وحل جميع الروابط المعطوبة 404.</li>
+        `,
+        case_3_m1: "إصلاح الفهرسة",
+        case_3_m2: "سرعة الجوال في PageSpeed",
+        case_3_m3: "فقدان في بيانات الشراء",
+        case_3_caption: "تقرير مؤشرات الأداء التقنية",
+        calc_badge: "أداة تفاعلية لأصحاب المتاجر",
+        calc_title: "احسب العائد المتوقع لمتجرك معنا",
+        calc_desc: "حرّك الميزانية الشهرية لمشاهدة تأثير تحسين العائد الإعلاني ومضاعفة المبيعات.",
+        calc_budget_label: "ميزانيتك الإعلانية الشهرية المتوقعة:",
+        calc_roas_label: "العائد الإعلاني المستهدف (Target ROAS):",
+        calc_result_label: "الإيرادات الشهرية المتوقعة من الحملات:",
+        calc_net_label: "صافي القيمة التقديرية المضافة بعد خصم الميزانية:",
+        calc_cta: "ناقش تحقيق هذا الهدف معي الآن &rarr;",
+        services_badge: "منظومة الخدمات الاستراتيجية",
+        services_title: "خدمات مصممة لمضاعفة مبيعاتك",
+        services_desc: "لا أقدم خدمات مبعثرة، بل منظومة نمو متكاملة تبدأ من البنية التحتية حتى التوسع وتكرار الشراء.",
+        srv_1_title: "إعلانات الأداء والتوسع (Performance Media Buying)",
+        srv_1_desc: "إدارة وتوسيع حملات Meta Ads (إنستغرام/فيسبوك)، TikTok Ads، و Snapchat Ads مع ضبط زوايا الكرييتف، إعلانات الكتالوج (DPA)، واسترجاع السلات المتروكة بأعلى ROAS.",
+        srv_1_f1: "اختبار مستمر للخطافات الإعلانية (Hooks)",
+        srv_1_f2: "عروض مخصصة للمتسوق في الخليج ودولياً",
+        srv_1_f3: "تقارير أداء أسبوعية بلغة الأرباح الصافية",
+        srv_1_link: "طلب إدارة الحملات الإعلانية &rarr;",
+        srv_2_title: "سيو المتاجر الإلكترونية (E-Commerce SEO)",
+        srv_2_desc: "تصدر نتائج قوقل الأولى لمتاجر سلة، زد، وشوبيفاي؛ استهداف كلمات نية الشراء العالية، تحسين أوصاف الفئات، وتفعيل ترميز Schema لضمان تدفق عملاء دائم بدون تكلفة نقرات.",
+        srv_2_f1: "بحث الكلمات المفتاحية ذات القصد التجاري",
+        srv_2_f2: "تهيئة سيو الفئات والمنتجات (On-Page)",
+        srv_2_f3: "تحسين السيو المحلي (Local SEO) للمدن",
+        srv_2_link: "طلب تهيئة السيو لمتجرك &rarr;",
+        srv_3_title: "التتبع السيرفري والتحليلات (Tracking & CAPI)",
+        srv_3_desc: "إعداد وتصحيح البنية التحتية للتتبع عبر Google Tag Manager و GA4 وواجهات تحويلات الخادم (Meta CAPI & TikTok Events) لتسجيل 100% من بيانات المبيعات بدقة فائقة.",
+        srv_3_f1: "حل مشاكل حظر التتبع على أجهزة iOS",
+        srv_3_f2: "تتبع كامل لأحداث الشراء والسلات المتروكة",
+        srv_3_f3: "لوحة قياس مؤشرات واضحة لمتخذ القرار",
+        srv_3_link: "طلب إعداد وتصحيح التتبع &rarr;",
+        faq_badge: "إجابات واضحة",
+        faq_title: "الأسئلة الشائعة لأصحاب المتاجر",
+        faq_q1: "كم من الوقت يستغرق ظهور نتائج تحسين السيو في متجري؟",
+        faq_a1: "في منصات التجارة الإلكترونية مثل سلة وشوبيفاي، تبدأ النتائج الأولية للأرشفة وفهرسة الكلمات المستهدفة بالظهور بين 3 إلى 6 أسابيع، وتصل إلى أعلى مستوياتها خلال 60 إلى 90 يوماً مع استمرار تدفق الزيارات العضوية وتصدر الكلمات التجارية.",
+        faq_q2: "ما هي الميزانية الإعلانية المناسبة للبدء في الحملات؟",
+        faq_a2: "الميزانية تعتمد على هوامش ربح منتجك، ولكن كقاعدة عامة للمتاجر بالسوق الخليجي ننصح بميزانية اختبار تبدأ من 3,000 إلى 5,000 ريال شهرياً (أو ما يعادلها) كافية لاختبار الجماهير والخطافات الإعلانية وتحديد الإعلانات الرابحة قبل مضاعفة الإنفاق.",
+        faq_q3: "كيف يضمن التتبع السيرفري (CAPI) عدم ضياع بيانات مبيعاتي؟",
+        faq_a3: "البيكسل العادي يعتمد على متصفح العميل الذي قد يحجب البيانات بسبب برامج حظر الإعلانات أو تحديثات iOS. بينما التتبع عبر الخادم (Conversions API) يرسل بيانات الطلب مباشرة من سيرفر المتجر إلى سيرفرات المنصات، مما يضمن تسجيل 100% من التحويلات ومساعدة الخوارزمية في إيجاد مشترين مماثلين.",
+        faq_q4: "كيف نبدأ العمل معاً؟",
+        faq_a4: "نبدأ بجلسة تدقيق مجانية سريعة (Audit) عبر الواتساب؛ أقوم فيها بفحص متجرك، إعلاناتك السابقة، ونقاط الهدر، وأقدم لك خطة عمل واضحة ذات أهداف ورقم ROAS مستهدف قبل بدء أي تعاقد.",
+        contact_status: "جلسات الاستشارة متاحة هذا الأسبوع",
+        contact_title: "جاهز لرفع مبيعات متجرك وتصدر محركات البحث؟",
+        contact_desc: "تواصل معي الآن عبر الواتساب، وسأقوم بعمل فحص وتدقيق أولي لمتجرك، موضحاً لك 3 فرص فورية لخفض تكلفة الإعلانات ورفع المبيعات مجاناً.",
+        contact_whatsapp_btn: "تحدث معي عبر واتساب الآن",
+        contact_email_btn: "مراسلة عبر البريد الإلكتروني",
+        contact_loc: "متاح للعمل عن بُعد للخليج ودولياً",
+        footer_copy: "© 2026 محمود عايش — أخصائي تسويق رقمي وأداء وسيو | جميع الحقوق محفوظة"
+      },
+      en: {
+        announcement_text: "Accepting new growth partnerships for E-Commerce brands & businesses this quarter",
+        announcement_cta: "Claim your free store audit &rarr;",
+        brand_name: "Mahmoud Ayesh",
+        brand_tagline: "Performance Marketing & E-Commerce SEO",
+        nav_philosophy: "Analytical Edge",
+        nav_results: "Key Metrics",
+        nav_cases: "Case Studies",
+        nav_services: "Strategic Services",
+        nav_calculator: "ROI Calculator",
+        nav_faq: "FAQ",
+        btn_whatsapp: "Chat on WhatsApp",
+        btn_whatsapp_short: "Chat",
+        hero_badge: "Scientific Analytical Rigor Applied to E-Commerce Growth",
+        hero_title_1: "Turning Ad Spend Into",
+        hero_title_gradient: "Compounding Net Profit",
+        hero_title_2: "via Paid Media & Advanced SEO",
+        hero_desc: "I am <strong>Mahmoud Ayesh</strong>; a Performance Growth Engineer and Technical SEO Specialist. I fuse pharmaceutical clinical analytical precision with deep consumer psychology across GCC and global markets to scale paid campaigns (<span class=\"text-emerald-400 font-bold font-num\">ROAS 4.25x+</span>), dominate commercial Google rankings, and architect bulletproof server-side tracking.",
+        hero_cta_primary: "Get Your Free Growth Audit",
+        hero_cta_secondary: "Explore Verified Case Studies",
+        proof_1: "Managing 250,000+ SAR ad budgets",
+        proof_2: "Salla, Zid & Shopify Specialist",
+        proof_3: "Server-Side CAPI & GTM Tracking",
+        card_name: "Mahmoud Ayesh",
+        card_role: "Growth & E-Commerce Lead",
+        card_status: "Active",
+        card_field_1: "Core Specialization",
+        card_val_1: "Performance Ads & Commercial SEO",
+        card_field_2: "Target Markets",
+        card_val_2: "Saudi Arabia, GCC & Global",
+        card_field_3: "Academic Background",
+        card_val_3: "BPharm (Clinical Data Analysis)",
+        card_field_4: "Ad Channels",
+        card_field_5: "E-Com Platforms",
+        card_cta: "Book a Strategic Audit &rarr;",
+        metric_1_title: "Average Blended ROAS",
+        metric_1_sub: "Achieved across Fashion & Retail stores",
+        metric_2_title: "Organic Traffic Growth",
+        metric_2_sub: "Within 90 days across category pages",
+        metric_3_title: "Lowest Achieved CPC",
+        metric_3_sub: "Through rapid creative hook testing",
+        metric_4_title: "Server Event Match Quality",
+        metric_4_sub: "Meta CAPI & Server-Side GTM",
+        bento_badge: "The Differentiator",
+        bento_title: "The Analytical Advantage: Marketing as Exact Science",
+        bento_desc: "Most marketing campaigns bleed money because they rely on guesswork. My pharmaceutical biochemistry background provides a distinct edge: treating e-commerce funnels as biological systems—diagnosing metabolic friction, dosing budgets methodically, and measuring consumer response with relentless empirical rigor.",
+        bento_card_1_title: "Laboratory-Grade Funnel Diagnostics",
+        bento_card_1_desc: "I don't just look at vanity sales numbers. I dissect the entire customer journey: from CTR and Add-to-Cart rates to Checkout drop-offs, isolating and plugging budget leaks immediately.",
+        bento_card_2_title: "High-Intent Commercial SEO",
+        bento_card_2_desc: "Traffic that doesn't convert is an operational waste. I optimize Salla, Zid, and Shopify stores for high-intent transactional search queries—capturing buyers ready to check out immediately.",
+        bento_card_3_title: "Regional & GCC Consumer Psychology",
+        bento_card_3_desc: "Consumers in Saudi Arabia and the Gulf respond to specific triggers: Buy Now Pay Later (Tabby / Tamara), Cash on Delivery, raw authentic UGC videos, and strategic bundle packaging.",
+        cases_badge: "Verified Track Record",
+        cases_title: "Detailed Verified Case Studies",
+        cases_desc: "How I helped retail brands conquer ad fatigue, poor search visibility, and record break-even benchmarks with data.",
+        case_1_tag1: "Performance Ads | Meta & TikTok",
+        case_1_tag2: "Fashion & Retail",
+        case_1_tag3: "12 Weeks",
+        case_1_headline: "Scaling Ad Return from 1.4x to 4.25x ROAS Generating 248,500 SAR in Revenue",
+        label_challenge: "The Bottleneck:",
+        case_1_challenge: "A fashion e-commerce store was struggling with soaring Customer Acquisition Costs (CAC) and a stagnant 1.4x ROAS due to static creative fatigue, broad audience targeting, and losing over 70% of abandoned checkouts without proper retargeting.",
+        label_solution: "The Engineering Intervention:",
+        case_1_solution_list: `
+          <li>Restructured the entire ad account into a segmented 3-stage funnel: (Top, Middle, Bottom).</li>
+          <li>Deployed rapid video creative testing (Hooks & UGC) focusing on authentic styling and fit.</li>
+          <li>Configured Dynamic Product Ads (DPA) targeting abandoned carts with customized free-shipping hooks.</li>
+          <li>Implemented Meta Conversions API and TikTok Events API to restore 100% attribution precision.</li>
+        `,
+        case_1_m1: "Verified ROAS",
+        curr_sar: "SAR",
+        case_1_m2: "Total Revenue Generated",
+        case_1_m3: "CAC Reduction",
+        case_1_caption: "Meta & TikTok Campaign Dashboard",
+        case_2_tag1: "E-Commerce SEO",
+        case_2_tag2: "Salla Platform",
+        case_2_tag3: "90 Days",
+        case_2_headline: "+65% Organic Traffic Surge & 14 Commercial Keywords Dominating Rank #1",
+        case_2_challenge: "A Saudi store on Salla relied entirely on paid media. The moment ads were paused, revenue plummeted to zero due to non-existent organic visibility on Google for high-margin categories.",
+        case_2_solution_list: `
+          <li>Extracted 120+ high-intent commercial keywords targeted across Riyadh, Jeddah, and Eastern Province.</li>
+          <li>Overhauled category on-page architecture and wrote rich semantic descriptions.</li>
+          <li>Implemented structured schema markup (Product & Review Schema) to capture Google Rich Snippets.</li>
+          <li>Engineered internal link equity flows from high-traffic pages into top-margin collections.</li>
+        `,
+        case_2_m1: "Organic Traffic Growth",
+        case_2_m2: "Free Google Clicks",
+        case_2_m3: "Keywords at Rank #1",
+        case_2_caption: "Google Search Console Performance Data",
+        case_3_tag1: "Server-Side Infrastructure",
+        case_3_tag2: "CAPI & Core Web Vitals",
+        case_3_tag3: "Technical Audit",
+        case_3_headline: "100% Indexing Resolution & 88/100 Mobile Speed with Zero Signal Loss",
+        case_3_challenge: "Severe ad signal degradation caused by iOS privacy updates resulted in 30% lost purchase attribution, coupled with sluggish mobile load times and crawling errors in Google Search Console.",
+        case_3_solution_list: `
+          <li>Built a robust Google Tag Manager server container with dedicated cloud infrastructure.</li>
+          <li>Configured Meta CAPI and TikTok Server Events with server-side cookie deduplication.</li>
+          <li>Optimized assets, WebP image formats, and script execution to pass Core Web Vitals.</li>
+          <li>Resolved all 404 indexing errors, canonical tags, and updated dynamic XML sitemaps.</li>
+        `,
+        case_3_m1: "Indexation Fixed",
+        case_3_m2: "Mobile PageSpeed Score",
+        case_3_m3: "Attribution Loss",
+        case_3_caption: "Technical Audit & Performance Metrics",
+        calc_badge: "Interactive Growth Calculator",
+        calc_title: "Calculate Your Projected Store ROI",
+        calc_desc: "Adjust your monthly ad budget and target ROAS to visualize your scaled revenue impact.",
+        calc_budget_label: "Monthly Ad Budget:",
+        calc_roas_label: "Target Blended ROAS:",
+        calc_result_label: "Projected Monthly Revenue:",
+        calc_net_label: "Estimated Net Margin Added After Ad Spend:",
+        calc_cta: "Discuss Hitting This Target With Me &rarr;",
+        services_badge: "Growth Engine",
+        services_title: "Engineered Services Built for Scale",
+        services_desc: "Not disjointed tactics, but a synchronized growth system from tracking infrastructure to hyper-profitable scaling.",
+        srv_1_title: "Performance Media Buying & Scaling",
+        srv_1_desc: "Full-cycle media management across Meta, TikTok, and Snapchat with creative hook testing, dynamic catalog campaigns (DPA), and high-ROAS checkout recovery.",
+        srv_1_f1: "Continuous creative hook & angle testing",
+        srv_1_f2: "Custom localized offers for GCC & Global buyers",
+        srv_1_f3: "Weekly profit-first transparent reporting",
+        srv_1_link: "Inquire About Paid Media &rarr;",
+        srv_2_title: "E-Commerce SEO & Search Dominance",
+        srv_2_desc: "Dominating Google Page #1 for Salla, Zid, and Shopify stores; targeting high-intent commercial keywords, category optimization, and schema markup for perpetual free traffic.",
+        srv_2_f1: "Transactional intent keyword mapping",
+        srv_2_f2: "On-Page category & product optimization",
+        srv_2_f3: "Local SEO targeting key consumer cities",
+        srv_2_link: "Inquire About E-Com SEO &rarr;",
+        srv_3_title: "Server-Side Tracking & Analytics (CAPI)",
+        srv_3_desc: "Architecting GTM, GA4, Meta CAPI, and TikTok Events API infrastructure to recover lost signals and feed ad algorithms with 100% pristine conversion data.",
+        srv_3_f1: "Bypass iOS ad blockers and cookie restrictions",
+        srv_3_f2: "Full-funnel custom e-commerce event tracking",
+        srv_3_f3: "Executive-level GA4 dashboard setup",
+        srv_3_link: "Inquire About Tracking Setup &rarr;",
+        faq_badge: "Clear Answers",
+        faq_title: "Frequently Asked Questions",
+        faq_q1: "How long does it take to see organic SEO results?",
+        faq_a1: "For platforms like Salla and Shopify, initial indexing and early rank shifts appear within 3 to 6 weeks. High-impact commercial rankings and steady organic sales typically mature between 60 to 90 days.",
+        faq_q2: "What is the recommended starting ad budget?",
+        faq_a2: "It depends on product margins, but for GCC markets, we recommend a testing budget starting around $1,000 to $1,500/month (3,000 - 5,000 SAR) to test audiences, creative hooks, and validate winning ads before aggressive scaling.",
+        faq_q3: "How does Server-Side Tracking (CAPI) protect my attribution?",
+        faq_a3: "Browser pixels get blocked by Safari, iOS, and ad-blockers. Server-to-server tracking sends purchase events directly from your store server to Meta and TikTok, ensuring 100% of conversion data reaches the ad algorithm for maximum optimization.",
+        faq_q4: "How do we kick off our collaboration?",
+        faq_a4: "We begin with a complimentary quick WhatsApp audit. I inspect your store, historical campaign structure, and friction points, then present you with a clear roadmap and target ROAS before any engagement.",
+        contact_status: "Consultations Available This Week",
+        contact_title: "Ready to Scale Your Store Revenue & Dominate Search?",
+        contact_desc: "Message me directly on WhatsApp now. I will perform a complimentary preliminary store audit, revealing 3 immediate levers to slash your CAC and boost revenue.",
+        contact_whatsapp_btn: "Chat Directly on WhatsApp",
+        contact_email_btn: "Send an Email",
+        contact_loc: "Available for Remote Work Globally & GCC",
+        footer_copy: "© 2026 Mahmoud Ayesh — Performance Marketer & E-Commerce SEO Specialist | All Rights Reserved"
+      }
+    };
+
+    let currentLang = 'ar';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      const t = translations[lang];
+      if (!t) return;
+
+      document.documentElement.lang = lang;
+      document.documentElement.dir = (lang === 'ar' ? 'rtl' : 'ltr');
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key]) {
+          if (t[key].includes('<') && t[key].includes('>')) {
+            el.innerHTML = t[key];
+          } else {
+            el.innerText = t[key];
+          }
+        }
+      });
+
+      const langLabel = document.getElementById('lang-label');
+      if (langLabel) {
+        langLabel.innerText = (lang === 'ar' ? 'English' : 'العربية');
+      }
+
+      const currTag = document.getElementById('currency-tag');
+      if (currTag) {
+        currTag.innerText = (lang === 'ar' ? 'ريال / دولار' : 'SAR / USD');
+      }
+
+      localStorage.setItem('mahmoud_portfolio_lang', lang);
+      if (typeof calculateRevenue === 'function') {
+        calculateRevenue();
+      }
+    }
+
+    function toggleLanguage() {
+      const nextLang = (currentLang === 'ar' ? 'en' : 'ar');
+      setLanguage(nextLang);
+    }
+
+    // Auto load language on startup
+    document.addEventListener('DOMContentLoaded', () => {
+      const savedLang = localStorage.getItem('mahmoud_portfolio_lang') || 'ar';
+      setLanguage(savedLang);
+    });
+
+    // Calculator Logic
+    const budgetSlider = document.getElementById('budget-slider');
+    const roasSlider = document.getElementById('roas-slider');
+    const budgetVal = document.getElementById('budget-val');
+    const roasVal = document.getElementById('roas-val');
+    const revenueVal = document.getElementById('revenue-val');
+    const netVal = document.getElementById('net-val');
+
+    function calculateRevenue() {
+      if (!budgetSlider || !roasSlider) return;
+      const budget = parseFloat(budgetSlider.value);
+      const roas = parseFloat(roasSlider.value);
+      const revenue = budget * roas;
+      const net = revenue - budget;
+
+      const currencyStr = (currentLang === 'ar' ? 'ريال' : 'SAR/USD');
+
+      budgetVal.innerText = Number(budget).toLocaleString() + ' ' + currencyStr;
+      roasVal.innerText = roas.toFixed(1) + 'x';
+      revenueVal.innerHTML = Number(revenue).toLocaleString() + ' <span class="text-base sm:text-lg font-bold text-emerald-400">' + currencyStr + '</span>';
+      netVal.innerText = Number(net).toLocaleString() + ' ' + currencyStr;
+    }
+
+    if (budgetSlider && roasSlider) {
+      budgetSlider.addEventListener('input', calculateRevenue);
+      roasSlider.addEventListener('input', calculateRevenue);
+      calculateRevenue();
+    }
+  </script>
+
+</body>
+</html>
